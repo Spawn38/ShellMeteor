@@ -5,8 +5,7 @@
 
 Reaktor.init(
   <Router>
-    <Route path="/" content={Home} layout={MainLayout} />
-    <Route path="/about" content={About} layout={MainLayout} />
+    <Route path="/" content={Home} layout={MainLayout} />    
   </Router>
 );
 
